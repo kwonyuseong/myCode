@@ -1,0 +1,52 @@
+# 
+# # 코딩 스타일 
+# # 역할_정보
+# # 역할_세부_정보 
+# 
+# 
+# from tkinter import *
+#  
+# class MyFrame(Frame):
+#     def __init__(self, master):
+#         #카테고리 리스트
+#         list_category = ListBox(Frame)
+#         list_category.grid(row = 0, column = 0)
+#         
+#         #세부 카테고리 (지금단계에서는 미적용)
+#         list_semi_category = ListBox(Frame)
+#         list_semi_category.grid(row = 0, column = 1)
+#         
+#         #날짜 선택
+#             #오늘날짜 가져오기
+#         txt_date = Text(Frame)
+#         txt_date.grid(row = 0 , column = 2)
+#         
+#         # 아이디 입력 창
+#         entry_id = Entry(Frame)
+#         entry_id.grid(row = 1 , column = 0)
+#         
+#         # 비밀번호 입력 창
+#         entry_pw = Entry(Frame)
+#         entry_pw.grid(row = 1 , column = 1)
+#         
+#         # 글머리 입력 창
+#         entry_macro = Entry(Frame)
+#         entry_macro.grid(row = 1 , column = 2)
+#         
+#         # 포스트 갯수 선택 창
+#         entry_postnum = Entry(Frame)
+#         entry_postnum.grid(row = 1 , column = 3)
+#         
+#         # 포스팅 시작 버튼
+#         btn_start_posting = Button(Frame)
+#         btn_start_posting.grid(row = 1, column = 4)
+#  
+# def main():
+#     root = Tk()
+#     root.title('네이버 오토 포스팅')
+#     root.geometry('500x400+10+10')
+#     myframe = MyFrame(root)
+#     root.mainloop()
+#  
+# if __name__ == '__main__':
+#     main()
