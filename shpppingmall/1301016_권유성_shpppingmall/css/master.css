@@ -1,0 +1,124 @@
+body{
+  width: 1030px;
+  /*의미없는 공백을 제거*/
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  /*body를 페이지의 중앙에 정렬*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffFae6;
+}
+
+#headerNavContaina{
+  /*오른쪽 정렬을 위한 headerNav컨테이너*/
+  width:100%;
+  background-color: rosybrown;
+}
+
+#headerNav {
+  /*headerNav의 높이 설정 제대로 설정 안할 시 아래 내용이 깨짐*/
+  height: 30px;
+  /*headerNav의 높이 설정 제대로 설정 안할 시 브라우저 크기 조정시 깨질 수 도 있음*/
+  width: 1024px;
+}
+
+#headerNav li {
+  /*<li> 태그의목록을 나타내는 점을 없앤다 */
+  list-style: none;
+  color: black;
+  float: left;
+  /*글씨를 가운데 오도록 설정 하기 위해서 한줄의 높이를 headerNav크기와 동일한 30px 설정 */
+  line-height: 30px;
+  /*세로 정렬을 가운데로 설정(위의 line-height와 같이 설정 필요함)*/
+  vertical-align: middle;
+  text-align: center;
+}
+
+#headerNav .menuLink {
+  text-decoration:none;
+  color: black;
+  display: block;
+  width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#headerNav .menuLink:hover {
+  color: white;
+  background-color: rosybrown;
+}
+#headerimg {
+  width: 1030px;
+  border: 3px solid black;
+}
+
+#headerimg img{
+  width: 1024px;
+  height: 150px;
+
+}
+
+#headerimg span{
+  background-color: #ffffff;
+}
+/************** 헤더 끝 ****************/
+#horizen_bar{
+    border-top:   3px solid black;
+    border-left:  3px solid black;
+    border-right: 3px solid black;
+    /*텍스트를 중앙에오는것 처럼 꾸미기위해 사용*/
+    padding-top: 15px;
+    /*텍스트 중앙정렬*/
+    text-align: center;
+    /*폰트 색상 사이즈 배경색*/
+    color: white;
+    font-size: 20px;
+    background-color: rosybrown;
+    height: 50px;
+    width: 1030px;
+}
+
+#maincontainer{
+  position: relative;
+}
+
+#content1 {
+  background-color: #FDF4EA;
+  border: 3px solid black;
+  width: 1030px;
+}
+
+#productBox {
+  display: inline-block;
+  width: 300px;
+  height: 420px;
+  margin: 18px;
+  background-color: gray;
+}
+#productBox a{
+  text-decoration: none;
+  color: white;
+}
+#productimgBox img{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  }
+#productTextBox table{
+  width: 100%;
+  text-align: center;
+}
+/*#none{
+  text-decoration: none;
+}*/
+
+#soldout{
+  color: red;
+}
+#footer {
+  height: 100px;
+  width: 1030px;
+  border: 3px solid black;
+  background-color: lightgray;
+}

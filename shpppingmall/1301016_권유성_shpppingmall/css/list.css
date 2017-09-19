@@ -1,0 +1,23 @@
+#list_menubar{
+  width: 1024;
+}
+
+#list_menubar table{
+
+}
+.b_m_name{
+  width: 150px;
+}
+.b_m_ex{
+  width:700px;
+}
+
+#list_content{
+    text-align: center;
+    width: 1024;
+}
+
+#list_content a{
+  color: black;
+  text-decoration: none;
+}
