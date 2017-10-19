@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$       클래스모임   *$$$$$$$$$$$$$$$$$$$$$$$$ /
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$    바디 배경이미지 +폰트 설정   $$$$$$$$$$$$$$$$$$$$$$$$*/
+#body{ border: 0; padding: 0; align:center;
+/*background: url(http://www.matcl.com/files/attach/images/2088292/708/752/004/e38830e56161f6f307cf46afdac8b2d1.jpg);*/
+background-image: url(http://kr.best-wallpaper.net/wallpaper/1920x1200/1303/Japan-Attractions-in-winter-snow-temple-lake-reflection-and-blue-sky_1920x1200.jpg);
+  font-family: 'Hanna', sans-serif; color: white;
+}
+#framebody
+{ border: 0; padding: 0; align:center;
+background-image: url(https://www.google.co.kr/imgres?imgurl=http%3A%2F%2Fwww.matcl.com%2Ffiles%2Fattach%2Fimages%2F2494259%2F243%2F522%2F002%2F09beb4df30ca5c6ab2d13df8349bf503.png&imgrefurl=http%3A%2F%2Fwww.matcl.com%2FwallpaperDB%2F2522243&docid=cxTHY4DSMTYEkM&tbnid=8zbneLY8iQ0qfM%3A&w=1600&h=900&bih=705&biw=1351&ved=0ahUKEwjjn-OmoafNAhXFupQKHWEvB2UQMwgeKAIwAg&iact=mrc&uact=8);
+  font-family: 'Hanna', sans-serif; color: white;
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$       ID        $$$$$$$$$$$$$$$$$$$$$$$$ */
+#lefthead{
+  float: left;
+  text-align:left;
+}
+
+#midhead{
+
+  text-align: center;
+
+}
+#righthead{
+
+  text-align: right;
+
+}
+
+
+#main{
+
+  margin-left: 100px;
+  margin-right:100px;
+  width: auto;
+  height: auto;
+  background-image: url(http://www.matcl.com/files/2013/06/06/c490bdeac396ae2afbe828b57f2361d5115739.jpg);
+
+}
+
+#gal_main{
+  text-align: center;
+
+
+}
+
+#footer{
+  display: inline;
+
+}
+#footerright{
+  float: right;
+}
+
+
+header {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  /*background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR_ELoJ1B85dOF7gDkx0nG9Xj2rHkpQKjDZHylz8LgLqSDGidzOA);*/
+  background-repeat: repeat-x;
+}
+
+form {
+  /*display: inline;*/
+}
+nav ul {
+
+  list-style: none;
+  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding:10px;
+}
+
+nav ul li {
+
+
+  display : inline;
+  padding: 0 30px;
+  font-family: 'Hanna', sans-serif; color: white;
+
+}
+
+nav ul li a:link{
+  color:white;
+}
+
+nav ul li a:visited{
+  color:white;
+}
+
+nav ul li a:hover{
+  color:blue;
+  font-size:2.2ex;
+}
+
+nav ul li a:link{
+  color:blue;
+}
+section ul li{
+
+  margin: 20px;
+
+  display: inline;
+}

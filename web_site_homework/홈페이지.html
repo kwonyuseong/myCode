@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link type ="text/css" rel="stylesheet" href="홈페이지CSS.css">
+  <meta charset="UTF-8">
+  <title>권유성의 홈페이지입니다.</title>
+  <style>
+
+  </style>
+</head>
+
+
+
+  <!-- $$$$$$$$$$$$$$$$$$     B  O   D  Y     $$$$$$$$$$$$--->
+  <body id = "body">
+
+      <!-- $$$$$$$$$$$$$$$$$$  헤더를 left mid right로 삼등분      $$$$$$$$$$$$--->
+    <header>
+
+      <div id ="lefthead">
+
+          <a href="홈IFRAME.html" target = "home" >
+            <img src="home.png" width ="100px" height = "100px"></a>
+        </div>
+
+      <div id ="midhead">
+
+          <h2>현지 학기제</h2>
+        </div>
+
+      <div id ="righthead">
+
+          <form action="#">
+            아이디
+            <input type="text"  value="아이디를 입력해주세요"><br />
+            비밀번호
+            <input type="password"  value="비밀번호를 입력해주세요"><br />
+            <input type="submit" value ="로그인">
+            <input type="button" value="회원가입" onclick=" location = 'create_ac.html' ">
+          </form>
+        </div>
+
+    </header>
+<!-- $$$$$$$$$$$$$$$$$$     #  n  a   v   메  뉴    m  e  n  u    $$$$$$$$$$$$--->
+    <nav >
+      <ul>
+        <h3>
+          <li class = "animaition"><a href="info_jp.html" target ="home">일본반소개</a></li>
+          <li class = "animaition"><a href="gal.html" target ="home">갤러리</a></li>
+          <li class = "animaition"><a href="kys.html" target ="home" >자기소개</a></li>
+        </h3>
+      </ul>
+
+
+    </nav>
+    <!-- $$$$$$$$$$$$$$$$$$  헤더를 left mid right로 삼등분      $$$$$$$$$$$$--->
+
+    <aside id ="leftaside">
+
+    </aside>
+
+    <aside id ="rightaside">
+
+    </aside>
+<!--fffffffffffffffffffffff   메인 페이지 ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ  -->
+  <section  id = "main">
+
+    <iframe id ="iframe"name = "home"src="홈IFRAME.html"
+    width = "1000" height = "800">
+
+    </iframe>
+  </section>
+
+    <footer id = "footer">
+      <pwe><h5>고객문의 | 개인정보 취급방침 | 이메일 집단수신거부</h5>
+      <h6>대구시 동구 경안로 822-2 각산푸르지오 일본현지학기제 tel.053)965-0730 kkhqq11@naver.com</h6></pwe>
+      <audio id =footerright src="bgmusic.mp3" controls ></audio>
+    </footer>
+
+  </body>
+</html>
